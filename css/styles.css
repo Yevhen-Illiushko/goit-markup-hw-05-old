@@ -651,7 +651,7 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     align-items: center;
     fill: transparent;
 }
-.modal-checkbox:checked+.modal-href {
+.modal-checkbox:checked {
     background-color: var(--ocean);
     border: none; 
     fill: var(--cloud);
